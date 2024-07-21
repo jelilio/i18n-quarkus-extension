@@ -7,7 +7,7 @@ import io.quarkus.deployment.builditem.FeatureBuildItem;
 
 class I18nQuarkusExtensionProcessor {
 
-    private static final String FEATURE = "i18n-quarkus-extension";
+    private static final String FEATURE = "i18n";
 
     @BuildStep
     FeatureBuildItem feature() {
